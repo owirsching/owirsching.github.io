@@ -1,3 +1,31 @@
+/* NAV */
+
+nav {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav .links {
+    margin-right: 40px;
+}
+
+nav a {
+    background: none;
+    font-family: Roboto;
+}
+
+nav a:hover {
+    color: rgb(255, 162, 146);
+    background: none;
+}
+
+nav .name {
+    float: left;
+}
+
 /* HEADER */
 html, body {
     margin: 0 0;
@@ -65,7 +93,7 @@ p {
 
 .experience {
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .title {
@@ -155,6 +183,7 @@ a:hover {
     margin-bottom: 15px;
     border-bottom: 1px solid rgb(255, 162, 146);
     width: 1000px;
+    margin-left: 25px;
 }
 
 .pdf img {
@@ -165,23 +194,39 @@ a:hover {
 }
 
 .pdf img:hover {
-    transform: scale(2);
+    transform: scale(3);
     transition-delay: 200ms;
-    transition-timing-function: ease-in-out;
-    transition-duration: 700ms;
+    transition-timing-function: ease-out;
+    transition-duration: 800ms;
 }
+
+/* NEWSPAPER */
 
 .newspaper {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+#hover {
+    font-family: Fraunces;
+    color:rgb(255, 162, 146);
+    opacity: 50%;
 }
 
 .newspaper img {
-    height: 300px;
+    height: 200px;
     margin: 8px 15px;
     border: 2px solid rgb(18, 61, 113);
     border-radius: 10px;
+}
+
+.newspaper img:hover {
+    transform: scale(3);
+    transition-delay: 200ms;
+    transition-timing-function: ease-out;
+    transition-duration: 800ms;
 }
 
 /* ABOUT */
