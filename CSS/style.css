@@ -22,8 +22,52 @@ nav a:hover {
     background: none;
 }
 
-nav .name {
+nav .name  a {
     float: left;
+    font-family: Fraunces;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.content {
+    display: none;
+    border: 2px solid rgb(255, 162, 146);
+    border-radius: 5px;
+    min-width: 200px;
+    z-index: 1;
+    background: #fff;
+    float: right;
+    margin: 0 20px 0 0;
+    position: absolute;
+}
+
+.content p {
+    color:rgb(18, 61, 113);
+    padding: 0px 5px;
+    margin: 5px 20px;
+    font-size: 15px;
+    text-align: left;
+    font-family: Fraunces;
+}
+
+.content a {
+    color: rgb(255, 162, 146);
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 15px;
+    text-align: left;
+    font-family: Fraunces;
+}
+
+.content a:hover {
+    color: rgb(18, 61, 113);
+}
+
+.dropdown:hover .content {
+    display: block;
 }
 
 /* HEADER */
@@ -83,9 +127,17 @@ p {
     line-height: 2;
 }
 
-.bio em {
+#commongood {
     color:rgb(255, 162, 146);
     font-family: Fraunces;
+    text-decoration: none;
+    background: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#commongood:hover {
+    color:rgb(18, 61, 113);
 }
 
 /* EDUCATION */
