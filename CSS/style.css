@@ -1,0 +1,158 @@
+/* HEADER */
+html, body {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Roboto;
+    font-size: 20px;
+    background: rgb(240, 250, 252);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.container img{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 50px;
+    border: 4px solid rgb(18, 61, 113);
+}
+
+.container .header {
+    margin: 0 30px;
+}
+
+h5 {
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+h5 span {
+    font-family: "Fraunces";
+    font-size: 45px;
+    margin-left: 5px;
+    color:rgb(18, 61, 113);
+}
+
+.bio {
+    font-size: 20px;
+    margin-left: 130px;
+    font-family: Roboto;
+    min-width: 600px;
+    max-width: 700px;
+}
+
+
+p {
+    line-height: 2;
+}
+
+.header a {
+    color:rgb(255, 162, 146);
+    font-family: Fraunces;
+}
+
+/* EDUCATION */
+
+.experience {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px 0;
+    border-bottom: 2px solid rgb(255, 162, 146);
+    width: 400px;
+    font-family: Fraunces;
+    color:rgb(18, 61, 113);
+}
+
+.subtitle {
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+    max-width: 750px;
+}
+
+/* COMPUTER */
+
+.computer .description {
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.websites {
+    display: flex;
+}
+
+.websites embed {
+    margin: 15px 15px;
+    position: relative; 
+}
+
+.desktop {
+    min-width: 800px;
+    border: 4px solid rgb(18, 61, 113);
+}
+
+.mobile {
+    border: 4px solid rgb(18, 61, 113);
+    min-width: 300px;
+}
+
+.websites img {
+    position: absolute;
+    z-index: 5;
+    width: 870px;
+    margin-left: 0;
+    overflow: scroll;
+}
+
+
+/* CFA */
+
+.pdf {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted rgb(18, 61, 113);
+    width: 1000px;
+}
+
+.pdf img {
+    height: 300px;;
+    margin: 8px 15px;
+    border: 2px solid rgb(18, 61, 113);
+}
+
+.newspaper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.newspaper img {
+    height: 500px;
+    margin: 8px 15px;
+    border: 2px solid rgb(18, 61, 113);
+}
