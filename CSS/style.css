@@ -1,5 +1,15 @@
 /* NAV */
 
+@media screen and (min-width: 1100px) {
+    #okw {
+        display: none;
+    }
+
+    #mobilecontact {
+        display: none;
+    }
+}
+
 nav {
     display: flex;
     margin-top: 10px;
@@ -77,6 +87,146 @@ nav .name  a {
 .dropdown:hover .content {
     display: block;
 }
+
+
+/* MOBILE NAV */
+
+@media screen and (max-width: 799px) {
+    .dropdown {
+        display: none;
+    }
+
+    #olivia {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    nav .links {
+        margin-right: 10px;
+    }
+    
+    nav a {
+        background: none;
+        font-family: Roboto;
+        font-size: 15px;
+        margin: 10px 10px;
+        padding: 0 0;
+    }
+    
+    nav a:hover {
+        color: rgb(255, 162, 146);
+        background: none;
+    }
+    
+    
+    nav .name  a {
+        float: left;
+        font-family: Fraunces;
+        margin-left: 15px;
+    }
+    
+    #contact {
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    #mobilecontact {
+        display: none;
+    }
+    
+    #okw {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    nav .links {
+        margin-right: 30px;
+    }
+    
+    nav a {
+        background: none;
+        font-family: Roboto;
+        font-size: 15px;
+    }
+    
+    nav a:hover {
+        color: rgb(255, 162, 146);
+        background: none;
+    }
+    
+    
+    nav .name  a {
+        float: left;
+        font-family: Fraunces;
+    }
+    
+    #contact {
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    
+    .content {
+        display: none;
+        min-width: 200px;
+        z-index: 1;
+        background: #fff;
+        float: right;
+        margin: 0 20px 0 0;
+        position: absolute;
+    }
+    
+    .content p {
+        color:rgb(18, 61, 113);
+        padding: 0px 5px;
+        margin: 5px 20px;
+        font-size: 11px;
+        text-align: left;
+        font-family: Fraunces;
+    }
+    
+    .content a {
+        color: rgb(255, 162, 146);
+        padding: 0 0;
+        margin: 0 0;
+        font-size: 11px;
+        text-align: left;
+        font-family: Fraunces;
+    }
+    
+    .content a:hover {
+        color: rgb(18, 61, 113);
+    }
+    
+    .dropdown:hover .content {
+        display: block;
+    }
+
+    nav a {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
 
 /* HEADER */
 html, body {
