@@ -21,6 +21,11 @@ nav a:hover {
     background: none;
 }
 
+nav a: {
+    color: rgb(255, 162, 146);
+    background: none;
+}
+
 nav .name  a {
     float: left;
     font-family: Fraunces;
@@ -34,6 +39,7 @@ nav .name  a {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-right: 40px;
 }
 
 .content {
@@ -89,6 +95,7 @@ html, body {
     margin-left: 100px;
     margin-right: 20px;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .container img{
