@@ -297,7 +297,7 @@ html, body {
         width: 100%;
         align-items: center;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     .container img{
@@ -313,7 +313,7 @@ html, body {
     }
 
     #meimg {
-        margin: 50px 50px;
+        margin: 10px 50px;
         width: 50%;
     }
 
