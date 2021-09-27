@@ -24,6 +24,7 @@ nav .links {
 nav a {
     background: none;
     font-family: Roboto;
+    color: rgb(18, 61, 113);
 }
 
 nav a:hover {
@@ -35,6 +36,7 @@ nav a:hover {
 nav .name  a {
     float: left;
     font-family: Fraunces;
+    color: rgb(18, 61, 113);
 }
 
 #contact {
@@ -113,6 +115,7 @@ nav .name  a {
         font-size: 12px;
         margin: 10px 5px;
         padding: 0 0;
+        color: rgb(18, 61, 113);
     }
     
     nav a:hover {
@@ -125,6 +128,7 @@ nav .name  a {
         float: left;
         font-family: Fraunces;
         margin-left: 15px;
+        color: rgb(18, 61, 113);
     }
     
     #contact {
