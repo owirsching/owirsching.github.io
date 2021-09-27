@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(255, 162, 146);
+    color: rgb(0,0,0);
     background: none;
 }
 
@@ -68,7 +68,7 @@ nav .name  a {
 }
 
 .content a {
-    color: rgb(255, 162, 146);
+    color: rgb(0,0,0);
     padding: 0 0;
     margin: 0 0;
     font-size: 15px;
@@ -116,7 +116,7 @@ nav .name  a {
     }
     
     nav a:hover {
-        color: rgb(255, 162, 146);
+        color: rgb(0,0,0);
         background: none;
     }
     
@@ -216,7 +216,7 @@ nav .name  a {
     }
     
     nav a:hover {
-        color: rgb(255, 162, 146);
+        color: rgb(0,0,0);
         background: none;
     }
     
@@ -258,7 +258,7 @@ nav .name  a {
     }
     
     .content a {
-        color: rgb(255, 162, 146);
+        color: rgb(0,0,0);
         padding: 0 0;
         margin: 0 0;
         font-size: 11px;
@@ -346,7 +346,7 @@ html, body {
     }
 
     #commongood {
-        color:rgb(255, 162, 146);
+        color:rgb(0,0,0);
         font-family: Fraunces;
         text-decoration: none;
         background: none;
@@ -416,7 +416,7 @@ html, body {
     }
 
     #commongood {
-        color:rgb(255, 162, 146);
+        color:rgb(0,0,0);
         font-family: Fraunces;
         text-decoration: none;
         background: none;
@@ -481,7 +481,7 @@ html, body {
     }
 
     #commongood {
-        color:rgb(255, 162, 146);
+        color:rgb(0,0,0);
         font-family: Fraunces;
         text-decoration: none;
         background: none;
@@ -545,7 +545,7 @@ p {
 }
 
 #commongood {
-    color:rgb(255, 162, 146);
+    color:rgb(0,0,0);
     font-family: Fraunces;
     text-decoration: none;
     background: none;
@@ -569,7 +569,7 @@ p {
     font-weight: bolder;
     font-size: 25px;
     margin: 10px 0;
-    border-bottom: 2px solid rgb(255, 162, 146);
+    border-bottom: 2px solid rgb(0,0,0);
     width: 400px;
     font-family: Fraunces;
     color:rgb(18, 61, 113);
@@ -600,7 +600,7 @@ p {
 
 a {
     color:rgb(18, 61, 113);
-    background:rgb(255, 162, 146);
+    background:rgb(0,0,0);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -610,7 +610,7 @@ a {
 }
 
 a:hover {
-    color:rgb(255, 162, 146);
+    color:rgb(0,0,0);
     background:rgb(18, 61, 113);
 }
 
@@ -657,7 +657,7 @@ a:hover {
     flex-wrap: wrap;
     padding-bottom: 50px;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgb(255, 162, 146);
+    border-bottom: 1px solid rgb(0,0,0);
     width: 1000px;
     margin-left: 25px;
 }
@@ -687,7 +687,7 @@ a:hover {
 
 #hover {
     font-family: Fraunces;
-    color:rgb(255, 162, 146);
+    color:rgb(0,0,0);
     opacity: 50%;
 }
 
@@ -712,7 +712,7 @@ a:hover {
 
 a {
     color:rgb(18, 61, 113);
-    background:rgb(255, 162, 146);
+    background:rgb(0,0,0);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -722,7 +722,7 @@ a {
 }
 
 a:hover {
-    color:rgb(255, 162, 146);
+    color:rgb(0,0,0);
     background:rgb(18, 61, 113);
 }
 
@@ -785,7 +785,7 @@ a:hover {
     display: flex;
     padding-bottom: 50px;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgb(255, 162, 146);
+    border-bottom: 1px solid rgb(0,0,0);
     width: 80%;
     margin-left: 25px;
     align-items:flex-end;
@@ -825,7 +825,7 @@ a:hover {
 
 a {
     color:rgb(18, 61, 113);
-    background:rgb(255, 162, 146);
+    background:rgb(0,0,0);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -836,7 +836,7 @@ a {
 }
 
 a:hover {
-    color:rgb(255, 162, 146);
+    color:rgb(0,0,0);
     background:rgb(18, 61, 113);
 }
 
@@ -901,7 +901,7 @@ a:hover {
     flex-wrap: wrap;
     padding-bottom: 50px;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgb(255, 162, 146);
+    border-bottom: 1px solid rgb(0,0,0);
     width: 80%;
     margin-left: 25px;
     align-items:flex-end;
@@ -953,7 +953,7 @@ a:hover {
     padding-bottom: 50px;
     margin-bottom: 15px;
     margin-left: 25px;
-    border-bottom: 1px solid rgb(255, 162, 146);
+    border-bottom: 1px solid rgb(0,0,0);
     width: 80%;
     margin-bottom: 15px;
 }
@@ -1183,7 +1183,7 @@ a:hover {
        padding: 0 0;
        margin-left: 0;
        background: none;
-       color:rgb(255, 162, 146)
+       color:rgb(0,0,0)
     }
     
     .contacts a:hover {
@@ -1206,7 +1206,7 @@ a:hover {
        padding: 0 0;
        margin-left: 0;
        background: none;
-       color:rgb(255, 162, 146)
+       color:rgb(0,0,0)
     }
     
     .contacts a:hover {
