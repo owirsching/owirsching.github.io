@@ -167,7 +167,7 @@ nav .name  a {
     }
     
     nav a:hover {
-        color: rgb(255, 162, 146);
+        color: rgb(0,0,0);
         background: none;
     }
     
