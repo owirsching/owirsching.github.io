@@ -711,13 +711,13 @@ a:hover {
 
 a {
     color:rgb(70, 133, 214);
-    background:18, 61, 113);
+    background:rgb(18, 61, 113);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
     margin: 10px 0 10px 40px;
     font-family: Fraunces;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 a:hover {
@@ -777,6 +777,7 @@ a:hover {
     margin-right: 40px;
 }
 
+}
 
 /* CFA */
 
@@ -810,8 +811,7 @@ a:hover {
 #hover {
     display: none;
 }
-
-
+}
 
 @media screen and (max-width: 600px) {
     /* WEB */
@@ -957,6 +957,7 @@ a:hover {
         margin: 8px 15px;
     }
 }
+
 
 /* ABOUT ME*/
 
