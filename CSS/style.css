@@ -613,7 +613,7 @@ p {
 
 a {
     color:rgb(70, 133, 214);
-    background:rgb(0, 0, 0);
+    background:rgb(18, 61, 113);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -711,7 +711,7 @@ a:hover {
 
 a {
     color:rgb(70, 133, 214);
-    background:rgb(0,0,0);
+    background:18, 61, 113);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
@@ -811,14 +811,14 @@ a:hover {
     display: none;
 }
 
-}
+
 
 @media screen and (max-width: 600px) {
     /* WEB */
 
 a {
     color:rgb(18, 61, 113);
-    background:rgb(0,0,0);
+    background:rgb(18, 61, 113);
     padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
