@@ -704,20 +704,6 @@ a:hover {
     opacity: 50%;
 }
 
-.newspaper img {
-    width: 200px;
-    margin: 8px 15px;
-    border: 2px solid rgb(18, 61, 113);
-    border-radius: 10px;
-}
-
-.newspaper img:hover {
-    transform: scale(3);
-    transition-delay: 200ms;
-    transition-timing-function: ease-out;
-    transition-duration: 800ms;
-}
-
 }
 
 @media screen and (max-width: 1300px) and (min-width: 600px) {
@@ -825,12 +811,6 @@ a:hover {
     display: none;
 }
 
-.newspaper img {
-    width: 25%;
-    margin: 8px 15px;
-    border: 2px solid rgb(18, 61, 113);
-    border-radius: 10px;
-}
 }
 
 @media screen and (max-width: 600px) {
@@ -940,14 +920,6 @@ a:hover {
 #hover {
     display: none;
 }
-
-.newspaper img {
-    width: 70%;
-    margin: 8px 15px;
-    border: 2px solid rgb(18, 61, 113);
-    border-radius: 5px;
-}
-
 }
 
 
