@@ -580,7 +580,7 @@ p {
 
 .title {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px 0;
     border-bottom: 2px solid rgb(0,0,0);
     width: 700px;
@@ -967,6 +967,7 @@ a:hover {
 
     .experience {
         margin-left: 40px;
+        margin-right: 40px;
     }
 
     .aboutme {
