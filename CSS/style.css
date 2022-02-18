@@ -489,7 +489,7 @@ html, body {
     }  
 
     p {
-        line-height: 2;
+        line-height: 1.5;
     }
 
     #commongood {
@@ -773,7 +773,7 @@ a:hover {
 }
 
 .experience .title {
-    font-size: 25px;
+    font-size: 20px;
     width: 300px;
 }
 
