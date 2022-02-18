@@ -25,6 +25,7 @@ nav a {
     background: none;
     font-family: Roboto;
     color: rgb(18, 61, 113);
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -120,6 +121,7 @@ nav .name a:hover {
         margin: 10px 5px;
         padding: 0 0;
         color: rgb(18, 61, 113);
+        text-decoration: none;
     }
     
     nav a:hover {
@@ -143,8 +145,6 @@ nav .name a:hover {
         margin-left: 20px;
         font-size: 20px;
     }
-
-    
 }
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
@@ -777,7 +777,7 @@ a:hover {
     margin-right: 40px;
 }
 
-}
+
 
 /* CFA */
 
@@ -920,7 +920,7 @@ a:hover {
 #hover {
     display: none;
 }
-}
+
 
 
 /* ORIENT */
@@ -941,6 +941,7 @@ a:hover {
     border-bottom: 1px solid rgb(0,0,0);
     width: 80%;
     margin-bottom: 15px;
+}
 }
 
 @media screen and (max-width: 600px) {
